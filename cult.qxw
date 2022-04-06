@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="InputOutputManager">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FunctionManager">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.12.3</Version>
@@ -453,14 +453,14 @@
    <MonoColor>4278190335</MonoColor>
    <EndColor>4280418054</EndColor>
    <FixtureGroup>3</FixtureGroup>
-   <Property Name="color1Index" Value="Purple"/>
-   <Property Name="color4Index" Value="Blue"/>
+   <Property Name="presetSize" Value="20"/>
    <Property Name="color3Index" Value="Hot Pink"/>
    <Property Name="ramp" Value="30"/>
    <Property Name="color2Index" Value="Blue"/>
-   <Property Name="presetSize" Value="20"/>
    <Property Name="color5Index" Value="Coral"/>
+   <Property Name="color1Index" Value="Purple"/>
    <Property Name="stepsize" Value="30"/>
+   <Property Name="color4Index" Value="Blue"/>
   </Function>
   <Function ID="15" Type="Scene" Name="Lighting Rig ON" Path="House Lighting">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -601,14 +601,14 @@
    <MonoColor>4278190335</MonoColor>
    <EndColor>4280418054</EndColor>
    <FixtureGroup>3</FixtureGroup>
-   <Property Name="color1Index" Value="Green"/>
-   <Property Name="color4Index" Value="Yellow"/>
+   <Property Name="presetSize" Value="20"/>
    <Property Name="color3Index" Value="Dim Green"/>
    <Property Name="ramp" Value="30"/>
    <Property Name="color2Index" Value="Blue"/>
-   <Property Name="presetSize" Value="20"/>
    <Property Name="color5Index" Value="Green"/>
+   <Property Name="color1Index" Value="Green"/>
    <Property Name="stepsize" Value="30"/>
+   <Property Name="color4Index" Value="Yellow"/>
   </Function>
   <Function ID="35" Type="RGBMatrix" Name="Scene Sunset - PAR56" Path="Lighting Rig PARs">
    <Speed FadeIn="1000" FadeOut="0" Duration="1000"/>
@@ -619,9 +619,9 @@
    <MonoColor>4278190335</MonoColor>
    <EndColor>4280418054</EndColor>
    <FixtureGroup>3</FixtureGroup>
-   <Property Name="presetIndex" Value="Sunset"/>
-   <Property Name="orientation" Value="Radial"/>
    <Property Name="presetSize" Value="4"/>
+   <Property Name="orientation" Value="Radial"/>
+   <Property Name="presetIndex" Value="Sunset"/>
   </Function>
   <Function ID="36" Type="RGBMatrix" Name="Scene Rainbow - PAR56" Path="Lighting Rig PARs">
    <Speed FadeIn="1000" FadeOut="1000" Duration="2000"/>
@@ -632,9 +632,9 @@
    <MonoColor>4278190335</MonoColor>
    <EndColor>4280418054</EndColor>
    <FixtureGroup>3</FixtureGroup>
-   <Property Name="presetIndex" Value="Rainbow"/>
-   <Property Name="orientation" Value="Radial"/>
    <Property Name="presetSize" Value="6"/>
+   <Property Name="orientation" Value="Radial"/>
+   <Property Name="presetIndex" Value="Rainbow"/>
   </Function>
   <Function ID="39" Type="RGBMatrix" Name="Scene Ocean - PAR56" Path="Lighting Rig PARs">
    <Speed FadeIn="1000" FadeOut="0" Duration="1000"/>
@@ -645,27 +645,26 @@
    <MonoColor>4278190335</MonoColor>
    <EndColor>4280418054</EndColor>
    <FixtureGroup>3</FixtureGroup>
-   <Property Name="presetIndex" Value="Ocean"/>
-   <Property Name="orientation" Value="Radial"/>
    <Property Name="presetSize" Value="4"/>
+   <Property Name="orientation" Value="Radial"/>
+   <Property Name="presetIndex" Value="Ocean"/>
   </Function>
   <Function ID="41" Type="RGBMatrix" Name="Scene Colours - PAR56" Path="Lighting Rig PARs">
    <Speed FadeIn="2000" FadeOut="2000" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
-   <Algorithm Type="Script">Balls (Colors)</Algorithm>
+   <Algorithm Type="Script">Plasma (Colors)</Algorithm>
    <DimmerControl>1</DimmerControl>
    <MonoColor>4294705919</MonoColor>
    <EndColor>4280418054</EndColor>
    <FixtureGroup>3</FixtureGroup>
-   <Property Name="color1Index" Value="Red"/>
-   <Property Name="color4Index" Value="Blue"/>
-   <Property Name="presetCollision" Value="Yes"/>
-   <Property Name="color3Index" Value="Green"/>
-   <Property Name="color2Index" Value="Yellow"/>
    <Property Name="presetSize" Value="1"/>
-   <Property Name="color5Index" Value="Purple"/>
-   <Property Name="presetNumber" Value="5"/>
+   <Property Name="color3Index" Value="Green"/>
+   <Property Name="ramp" Value="15"/>
+   <Property Name="color2Index" Value="Red"/>
+   <Property Name="color5Index" Value="OFF"/>
+   <Property Name="stepsize" Value="25"/>
+   <Property Name="color4Index" Value="Blue"/>
   </Function>
   <Function ID="42" Type="Scene" Name="Lighting Rig PARs" Hidden="True">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
