@@ -361,10 +361,10 @@
    <FixtureVal ID="17">0,255</FixtureVal>
    <FixtureVal ID="21">0,255</FixtureVal>
   </Function>
-  <Function ID="1" Type="Video" Name="videoplayback">
+  <Function ID="1" Type="Video" Name="sample-5s.mp4">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <RunOrder>Loop</RunOrder>
-   <Source Fullscreen="1">/Users/tombutcher/Downloads/sample-5s.mp4</Source>
+   <Source Fullscreen="1">https://download.samplelib.com/mp4/sample-5s.mp4</Source>
   </Function>
   <Function ID="2" Type="Scene" Name="Spot Lights 75%" Path="House Lighting">
    <Speed FadeIn="3000" FadeOut="3000" Duration="0"/>
@@ -453,13 +453,13 @@
    <MonoColor>4278190335</MonoColor>
    <EndColor>4280418054</EndColor>
    <FixtureGroup>3</FixtureGroup>
-   <Property Name="presetSize" Value="20"/>
    <Property Name="color3Index" Value="Hot Pink"/>
-   <Property Name="ramp" Value="30"/>
+   <Property Name="presetSize" Value="20"/>
    <Property Name="color2Index" Value="Blue"/>
+   <Property Name="ramp" Value="30"/>
    <Property Name="color5Index" Value="Coral"/>
-   <Property Name="color1Index" Value="Purple"/>
    <Property Name="stepsize" Value="30"/>
+   <Property Name="color1Index" Value="Purple"/>
    <Property Name="color4Index" Value="Blue"/>
   </Function>
   <Function ID="15" Type="Scene" Name="Lighting Rig ON" Path="House Lighting">
@@ -534,6 +534,39 @@
    <Speed FadeIn="3000" FadeOut="3000" Duration="0"/>
    <FixtureVal ID="28">0,0</FixtureVal>
   </Function>
+  <Function ID="26" Type="Scene" Name="Strobe White" Path="Lighting Rig PARs">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,255,3,249</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,255,3,249</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,255,3,249</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,255,3,249</FixtureVal>
+   <FixtureVal ID="4">0,255,1,255,2,255,3,249</FixtureVal>
+   <FixtureVal ID="5">0,255,1,255,2,255,3,249</FixtureVal>
+   <FixtureVal ID="6">0,255,1,255,2,255,3,249</FixtureVal>
+   <FixtureVal ID="7">0,255,1,255,2,255,3,249</FixtureVal>
+  </Function>
+  <Function ID="27" Type="Scene" Name="Strobe Red" Path="Lighting Rig PARs">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,0,3,249</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,0,3,249</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,0,3,249</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,0,3,249</FixtureVal>
+   <FixtureVal ID="4">0,255,1,0,2,0,3,249</FixtureVal>
+   <FixtureVal ID="5">0,255,1,0,2,0,3,249</FixtureVal>
+   <FixtureVal ID="6">0,255,1,0,2,0,3,249</FixtureVal>
+   <FixtureVal ID="7">0,255,1,0,2,0,3,249</FixtureVal>
+  </Function>
+  <Function ID="28" Type="Scene" Name="Strobe Green" Path="Lighting Rig PARs">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0,1,255,2,0,3,249</FixtureVal>
+   <FixtureVal ID="1">0,0,1,255,2,0,3,249</FixtureVal>
+   <FixtureVal ID="2">0,0,1,255,2,0,3,249</FixtureVal>
+   <FixtureVal ID="3">0,0,1,255,2,0,3,249</FixtureVal>
+   <FixtureVal ID="4">0,0,1,255,2,0,3,249</FixtureVal>
+   <FixtureVal ID="5">0,0,1,255,2,0,3,249</FixtureVal>
+   <FixtureVal ID="6">0,0,1,255,2,0,3,249</FixtureVal>
+   <FixtureVal ID="7">0,0,1,255,2,0,3,249</FixtureVal>
+  </Function>
   <Function ID="29" Type="Scene" Name="Scene Red - PAR56" Path="Lighting Rig PARs">
    <Speed FadeIn="3000" FadeOut="3000" Duration="0"/>
    <FixtureVal ID="0">0,255,1,0,2,0</FixtureVal>
@@ -601,13 +634,13 @@
    <MonoColor>4278190335</MonoColor>
    <EndColor>4280418054</EndColor>
    <FixtureGroup>3</FixtureGroup>
-   <Property Name="presetSize" Value="20"/>
    <Property Name="color3Index" Value="Dim Green"/>
-   <Property Name="ramp" Value="30"/>
+   <Property Name="presetSize" Value="20"/>
    <Property Name="color2Index" Value="Blue"/>
+   <Property Name="ramp" Value="30"/>
    <Property Name="color5Index" Value="Green"/>
-   <Property Name="color1Index" Value="Green"/>
    <Property Name="stepsize" Value="30"/>
+   <Property Name="color1Index" Value="Green"/>
    <Property Name="color4Index" Value="Yellow"/>
   </Function>
   <Function ID="35" Type="RGBMatrix" Name="Scene Sunset - PAR56" Path="Lighting Rig PARs">
@@ -619,8 +652,8 @@
    <MonoColor>4278190335</MonoColor>
    <EndColor>4280418054</EndColor>
    <FixtureGroup>3</FixtureGroup>
-   <Property Name="presetSize" Value="4"/>
    <Property Name="orientation" Value="Radial"/>
+   <Property Name="presetSize" Value="4"/>
    <Property Name="presetIndex" Value="Sunset"/>
   </Function>
   <Function ID="36" Type="RGBMatrix" Name="Scene Rainbow - PAR56" Path="Lighting Rig PARs">
@@ -632,9 +665,26 @@
    <MonoColor>4278190335</MonoColor>
    <EndColor>4280418054</EndColor>
    <FixtureGroup>3</FixtureGroup>
-   <Property Name="presetSize" Value="6"/>
    <Property Name="orientation" Value="Radial"/>
+   <Property Name="presetSize" Value="6"/>
    <Property Name="presetIndex" Value="Rainbow"/>
+  </Function>
+  <Function ID="37" Type="Scene" Name="Strobe Blue" Path="Lighting Rig PARs">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0,1,0,2,255,3,249</FixtureVal>
+   <FixtureVal ID="1">0,0,1,0,2,255,3,249</FixtureVal>
+   <FixtureVal ID="2">0,0,1,0,2,255,3,249</FixtureVal>
+   <FixtureVal ID="3">0,0,1,0,2,255,3,249</FixtureVal>
+   <FixtureVal ID="4">0,0,1,0,2,255,3,249</FixtureVal>
+   <FixtureVal ID="5">0,0,1,0,2,255,3,249</FixtureVal>
+   <FixtureVal ID="6">0,0,1,0,2,255,3,249</FixtureVal>
+   <FixtureVal ID="7">0,0,1,0,2,255,3,249</FixtureVal>
+  </Function>
+  <Function ID="38" Type="Script" Name="restartSystem">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Command>systemcommand%3Areboot</Command>
   </Function>
   <Function ID="39" Type="RGBMatrix" Name="Scene Ocean - PAR56" Path="Lighting Rig PARs">
    <Speed FadeIn="1000" FadeOut="0" Duration="1000"/>
@@ -645,8 +695,8 @@
    <MonoColor>4278190335</MonoColor>
    <EndColor>4280418054</EndColor>
    <FixtureGroup>3</FixtureGroup>
-   <Property Name="presetSize" Value="4"/>
    <Property Name="orientation" Value="Radial"/>
+   <Property Name="presetSize" Value="4"/>
    <Property Name="presetIndex" Value="Ocean"/>
   </Function>
   <Function ID="41" Type="RGBMatrix" Name="Scene Colours - PAR56" Path="Lighting Rig PARs">
@@ -658,32 +708,13 @@
    <MonoColor>4294705919</MonoColor>
    <EndColor>4280418054</EndColor>
    <FixtureGroup>3</FixtureGroup>
-   <Property Name="presetSize" Value="1"/>
    <Property Name="color3Index" Value="Green"/>
-   <Property Name="ramp" Value="15"/>
+   <Property Name="presetSize" Value="1"/>
    <Property Name="color2Index" Value="Red"/>
+   <Property Name="ramp" Value="15"/>
    <Property Name="color5Index" Value="OFF"/>
    <Property Name="stepsize" Value="25"/>
    <Property Name="color4Index" Value="Blue"/>
-  </Function>
-  <Function ID="42" Type="Scene" Name="Lighting Rig PARs" Hidden="True">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="0">0,0,1,0,2,0</FixtureVal>
-   <FixtureVal ID="1">0,0,1,0,2,0</FixtureVal>
-   <FixtureVal ID="2">0,0,1,0,2,0</FixtureVal>
-   <FixtureVal ID="3">0,0,1,0,2,0</FixtureVal>
-   <FixtureVal ID="4">0,0,1,0,2,0</FixtureVal>
-   <FixtureVal ID="5">0,0,1,0,2,0</FixtureVal>
-   <FixtureVal ID="6">0,0,1,0,2,0</FixtureVal>
-   <FixtureVal ID="7">0,0,1,0,2,0</FixtureVal>
-  </Function>
-  <Function ID="43" Type="Sequence" Name="Scene Sunset - PAR56 (Copy) Sequence" BoundScene="42">
-   <Speed FadeIn="1000" FadeOut="0" Duration="1000"/>
-   <Direction>Forward</Direction>
-   <RunOrder>Loop</RunOrder>
-   <SpeedModes FadeIn="PerStep" FadeOut="Default" Duration="PerStep"/>
-   <Step Number="0" FadeIn="1000" Hold="0" FadeOut="0" Values="24">0:0,252,1,2,2,255:2:0,252,1,2,2,255:4:0,252,1,2,2,255:6:0,252,1,2,2,255</Step>
-   <Step Number="1" FadeIn="1000" Hold="0" FadeOut="0" Values="24">1:0,33,1,255,2,6:3:0,33,1,255,2,6:5:0,33,1,255,2,6:7:0,33,1,255,2,6</Step>
   </Function>
   <Function ID="81" Type="RGBMatrix" Name="Purple Rain">
    <Speed FadeIn="80" FadeOut="80" Duration="180"/>
@@ -802,7 +833,7 @@
     <ShowEnableButton>False</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <Multipage PagesNum="4" CurrentPage="0"/>
+    <Multipage PagesNum="4" CurrentPage="3"/>
     <Shortcut Page="0" Name="Home Page"/>
     <Shortcut Page="1" Name="Scenes"/>
     <Shortcut Page="2" Name="House Lights"/>
@@ -829,7 +860,7 @@
      </Appearance>
     </Label>
     <Button Caption="ENABLE VIDEO" ID="5" Page="3" Icon="">
-     <WindowState Visible="False" X="10" Y="465" Width="980" Height="85"/>
+     <WindowState Visible="False" X="10" Y="465" Width="815" Height="90"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1516,6 +1547,71 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
     </SoloFrame>
+    <Button Caption="Strobe RED" ID="18" Page="1" Icon="">
+     <WindowState Visible="False" X="5" Y="495" Width="225" Height="105"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294796902</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="27"/>
+     <Action>Flash</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Strobe GREEN" ID="19" Page="1" Icon="">
+     <WindowState Visible="False" X="235" Y="495" Width="225" Height="105"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4284940134</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="28"/>
+     <Action>Flash</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Strobe BLUE" ID="20" Page="1" Icon="">
+     <WindowState Visible="False" X="465" Y="495" Width="225" Height="105"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4284927231</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="37"/>
+     <Action>Flash</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Strobe WHITE" ID="21" Page="1" Icon="">
+     <WindowState Visible="False" X="695" Y="495" Width="300" Height="105"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4293322470</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="26"/>
+     <Action>Flash</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Restart System" ID="22" Page="3" Icon="">
+     <WindowState Visible="False" X="830" Y="465" Width="160" Height="90"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4283190348</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="38"/>
+     <Action>Flash</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
    </Frame>
   </Frame>
   <Properties>
