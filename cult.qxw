@@ -9,8 +9,8 @@
  <Engine>
   <InputOutputMap>
    <Universe Name="Universe 1" ID="0">
-    <Input Plugin="ArtNet" Line="2"/>
-    <Output Plugin="DMX USB" Line="1"/>
+    <Input Plugin="ArtNet" Line="1"/>
+    <Output Plugin="DMX USB" Line="0"/>
    </Universe>
   </InputOutputMap>
   <Fixture>
