@@ -1,5 +1,9 @@
 echo "Downloading fixtures..."
 
+cd /home/tom/.qlcplus/Fixtures
+wget -O LEDJ-PAR56.qxf "https://raw.githubusercontent.com/tom-23/CultCafeLighting/main/fixtures/LEDJ-PAR56.qxf"
+wget -O Equinox-Krypton.qxf "https://raw.githubusercontent.com/tom-23/CultCafeLighting/main/fixtures/Equinox-Krypton.qxf"
+
 echo "Downloading project file..."
 
 cd /home/tom
