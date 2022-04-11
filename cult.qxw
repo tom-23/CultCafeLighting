@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FunctionManager">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.12.3</Version>
@@ -456,14 +456,14 @@
    <MonoColor>4278190335</MonoColor>
    <EndColor>4280418054</EndColor>
    <FixtureGroup>3</FixtureGroup>
-   <Property Name="color3Index" Value="Hot Pink"/>
-   <Property Name="presetSize" Value="20"/>
-   <Property Name="color2Index" Value="Blue"/>
    <Property Name="ramp" Value="30"/>
-   <Property Name="color5Index" Value="Coral"/>
-   <Property Name="stepsize" Value="30"/>
-   <Property Name="color1Index" Value="Purple"/>
    <Property Name="color4Index" Value="Blue"/>
+   <Property Name="presetSize" Value="20"/>
+   <Property Name="color3Index" Value="Hot Pink"/>
+   <Property Name="stepsize" Value="30"/>
+   <Property Name="color2Index" Value="Blue"/>
+   <Property Name="color5Index" Value="Coral"/>
+   <Property Name="color1Index" Value="Purple"/>
   </Function>
   <Function ID="15" Type="Scene" Name="Lighting Rig ON" Path="House Lighting">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -637,14 +637,14 @@
    <MonoColor>4278190335</MonoColor>
    <EndColor>4280418054</EndColor>
    <FixtureGroup>3</FixtureGroup>
-   <Property Name="color3Index" Value="Dim Green"/>
-   <Property Name="presetSize" Value="20"/>
-   <Property Name="color2Index" Value="Blue"/>
    <Property Name="ramp" Value="30"/>
-   <Property Name="color5Index" Value="Green"/>
-   <Property Name="stepsize" Value="30"/>
-   <Property Name="color1Index" Value="Green"/>
    <Property Name="color4Index" Value="Yellow"/>
+   <Property Name="presetSize" Value="20"/>
+   <Property Name="color3Index" Value="Dim Green"/>
+   <Property Name="stepsize" Value="30"/>
+   <Property Name="color2Index" Value="Blue"/>
+   <Property Name="color5Index" Value="Green"/>
+   <Property Name="color1Index" Value="Green"/>
   </Function>
   <Function ID="35" Type="RGBMatrix" Name="Scene Sunset - PAR56" Path="Lighting Rig PARs">
    <Speed FadeIn="1000" FadeOut="0" Duration="1000"/>
@@ -655,8 +655,8 @@
    <MonoColor>4278190335</MonoColor>
    <EndColor>4280418054</EndColor>
    <FixtureGroup>3</FixtureGroup>
-   <Property Name="orientation" Value="Radial"/>
    <Property Name="presetSize" Value="4"/>
+   <Property Name="orientation" Value="Radial"/>
    <Property Name="presetIndex" Value="Sunset"/>
   </Function>
   <Function ID="36" Type="RGBMatrix" Name="Scene Rainbow - PAR56" Path="Lighting Rig PARs">
@@ -668,8 +668,8 @@
    <MonoColor>4278190335</MonoColor>
    <EndColor>4280418054</EndColor>
    <FixtureGroup>3</FixtureGroup>
-   <Property Name="orientation" Value="Radial"/>
    <Property Name="presetSize" Value="6"/>
+   <Property Name="orientation" Value="Radial"/>
    <Property Name="presetIndex" Value="Rainbow"/>
   </Function>
   <Function ID="37" Type="Scene" Name="Strobe Blue" Path="Lighting Rig PARs">
@@ -698,9 +698,24 @@
    <MonoColor>4278190335</MonoColor>
    <EndColor>4280418054</EndColor>
    <FixtureGroup>3</FixtureGroup>
-   <Property Name="orientation" Value="Radial"/>
    <Property Name="presetSize" Value="4"/>
+   <Property Name="orientation" Value="Radial"/>
    <Property Name="presetIndex" Value="Ocean"/>
+  </Function>
+  <Function ID="40" Type="Scene" Name="Cleaner Lights" Path="House Lighting">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="24">0,255</FixtureVal>
+   <FixtureVal ID="26">0,0</FixtureVal>
+   <FixtureVal ID="17">0,255</FixtureVal>
+   <FixtureVal ID="22">0,255</FixtureVal>
+   <FixtureVal ID="23">0,255</FixtureVal>
+   <FixtureVal ID="27">0,255</FixtureVal>
+   <FixtureVal ID="28">0,255</FixtureVal>
+   <FixtureVal ID="20">0,255</FixtureVal>
+   <FixtureVal ID="18">0,255</FixtureVal>
+   <FixtureVal ID="19">0,255</FixtureVal>
+   <FixtureVal ID="25">0,255</FixtureVal>
+   <FixtureVal ID="21">0,255</FixtureVal>
   </Function>
   <Function ID="41" Type="RGBMatrix" Name="Scene Colours - PAR56" Path="Lighting Rig PARs">
    <Speed FadeIn="2000" FadeOut="2000" Duration="5000"/>
@@ -711,13 +726,13 @@
    <MonoColor>4294705919</MonoColor>
    <EndColor>4280418054</EndColor>
    <FixtureGroup>3</FixtureGroup>
-   <Property Name="color3Index" Value="Green"/>
-   <Property Name="presetSize" Value="1"/>
-   <Property Name="color2Index" Value="Red"/>
    <Property Name="ramp" Value="15"/>
-   <Property Name="color5Index" Value="OFF"/>
-   <Property Name="stepsize" Value="25"/>
    <Property Name="color4Index" Value="Blue"/>
+   <Property Name="presetSize" Value="1"/>
+   <Property Name="color3Index" Value="Green"/>
+   <Property Name="stepsize" Value="25"/>
+   <Property Name="color2Index" Value="Red"/>
+   <Property Name="color5Index" Value="OFF"/>
   </Function>
   <Function ID="81" Type="RGBMatrix" Name="Purple Rain">
    <Speed FadeIn="80" FadeOut="80" Duration="180"/>
@@ -809,7 +824,7 @@
     <Font>Default</Font>
    </Appearance>
    <Button Caption="ALL OFF" ID="0" Icon="">
-    <WindowState Visible="False" X="885" Y="10" Width="120" Height="75"/>
+    <WindowState Visible="True" X="885" Y="10" Width="120" Height="75"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -829,14 +844,14 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="False" X="10" Y="100" Width="1000" Height="605"/>
+    <WindowState Visible="True" X="10" Y="95" Width="1000" Height="605"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
     <ShowEnableButton>False</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <Multipage PagesNum="4" CurrentPage="3"/>
+    <Multipage PagesNum="4" CurrentPage="0"/>
     <Shortcut Page="0" Name="Home Page"/>
     <Shortcut Page="1" Name="Scenes"/>
     <Shortcut Page="2" Name="House Lights"/>
@@ -886,7 +901,7 @@
      </Appearance>
     </Label>
     <Label Caption="Home" ID="7">
-     <WindowState Visible="False" X="10" Y="50" Width="980" Height="35"/>
+     <WindowState Visible="True" X="10" Y="50" Width="980" Height="35"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -925,7 +940,7 @@
       <Font>Default</Font>
      </Appearance>
     </Label>
-    <Label Caption="Spot Lights" ID="51" Page="2">
+    <Label Caption="Orange Lights" ID="51" Page="2">
      <WindowState Visible="False" X="190" Y="100" Width="160" Height="35"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
@@ -1206,7 +1221,7 @@
      </Button>
     </SoloFrame>
     <Label Caption="Static Rig PARs" ID="34">
-     <WindowState Visible="False" X="10" Y="100" Width="385" Height="35"/>
+     <WindowState Visible="True" X="10" Y="100" Width="385" Height="35"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -1223,7 +1238,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="False" X="20" Y="140" Width="360" Height="190"/>
+     <WindowState Visible="True" X="20" Y="140" Width="360" Height="190"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>False</ShowHeader>
@@ -1232,7 +1247,7 @@
      <Collapsed>False</Collapsed>
      <Disabled>False</Disabled>
      <Button Caption="OFF - PAR56" ID="67" Icon="">
-      <WindowState Visible="False" X="10" Y="10" Width="85" Height="85"/>
+      <WindowState Visible="True" X="10" Y="10" Width="85" Height="85"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -1245,7 +1260,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="Scene Blue - PAR56" ID="68" Icon="">
-      <WindowState Visible="False" X="95" Y="10" Width="85" Height="85"/>
+      <WindowState Visible="True" X="95" Y="10" Width="85" Height="85"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -1258,7 +1273,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="Scene Cyan - PAR56" ID="69" Icon="">
-      <WindowState Visible="False" X="180" Y="10" Width="85" Height="85"/>
+      <WindowState Visible="True" X="180" Y="10" Width="85" Height="85"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -1271,7 +1286,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="Scene Green - PAR56" ID="70" Icon="">
-      <WindowState Visible="False" X="265" Y="10" Width="85" Height="85"/>
+      <WindowState Visible="True" X="265" Y="10" Width="85" Height="85"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -1284,7 +1299,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="Scene Magenta - PAR56" ID="71" Icon="">
-      <WindowState Visible="False" X="10" Y="95" Width="85" Height="85"/>
+      <WindowState Visible="True" X="10" Y="95" Width="85" Height="85"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -1297,7 +1312,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="Scene Red - PAR56" ID="72" Icon="">
-      <WindowState Visible="False" X="95" Y="95" Width="85" Height="85"/>
+      <WindowState Visible="True" X="95" Y="95" Width="85" Height="85"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -1310,7 +1325,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="Scene White - PAR56" ID="73" Icon="">
-      <WindowState Visible="False" X="180" Y="95" Width="85" Height="85"/>
+      <WindowState Visible="True" X="180" Y="95" Width="85" Height="85"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -1323,7 +1338,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="Scene Yellow - PAR56" ID="74" Icon="">
-      <WindowState Visible="False" X="265" Y="95" Width="85" Height="85"/>
+      <WindowState Visible="True" X="265" Y="95" Width="85" Height="85"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -1337,7 +1352,7 @@
      </Button>
     </SoloFrame>
     <Label Caption="Fading Rig PARs" ID="82">
-     <WindowState Visible="False" X="10" Y="345" Width="385" Height="35"/>
+     <WindowState Visible="True" X="10" Y="345" Width="385" Height="35"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -1354,7 +1369,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="False" X="60" Y="385" Width="275" Height="190"/>
+     <WindowState Visible="True" X="60" Y="385" Width="275" Height="190"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>False</ShowHeader>
@@ -1363,7 +1378,7 @@
      <Collapsed>False</Collapsed>
      <Disabled>False</Disabled>
      <Button Caption="Scene Blue / Green - PAR56" ID="76" Icon="">
-      <WindowState Visible="False" X="10" Y="10" Width="85" Height="85"/>
+      <WindowState Visible="True" X="10" Y="10" Width="85" Height="85"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -1376,7 +1391,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="Scene Blue / Pink - PAR56" ID="77" Icon="">
-      <WindowState Visible="False" X="95" Y="10" Width="85" Height="85"/>
+      <WindowState Visible="True" X="95" Y="10" Width="85" Height="85"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -1389,7 +1404,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="Scene Colours - PAR56" ID="78" Icon="">
-      <WindowState Visible="False" X="180" Y="10" Width="85" Height="85"/>
+      <WindowState Visible="True" X="180" Y="10" Width="85" Height="85"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -1402,7 +1417,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="Scene Ocean - PAR56" ID="79" Icon="">
-      <WindowState Visible="False" X="10" Y="95" Width="85" Height="85"/>
+      <WindowState Visible="True" X="10" Y="95" Width="85" Height="85"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -1415,7 +1430,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="Scene Rainbow - PAR56" ID="80" Icon="">
-      <WindowState Visible="False" X="95" Y="95" Width="85" Height="85"/>
+      <WindowState Visible="True" X="95" Y="95" Width="85" Height="85"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -1428,7 +1443,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="Scene Sunset - PAR56" ID="81" Icon="">
-      <WindowState Visible="False" X="180" Y="95" Width="85" Height="85"/>
+      <WindowState Visible="True" X="180" Y="95" Width="85" Height="85"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -1615,7 +1630,232 @@
      <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
     </Button>
+    <Label Caption="Spot Lights" ID="25">
+     <WindowState Visible="True" X="405" Y="100" Width="130" Height="35"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>4294967295</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Label>
+    <SoloFrame Caption="" ID="40">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="True" X="415" Y="140" Width="105" Height="190"/>
+     <AllowChildren>False</AllowChildren>
+     <AllowResize>False</AllowResize>
+     <ShowHeader>False</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Mixing>False</Mixing>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Button Caption="Spot Lights 100%" ID="26" Icon="">
+      <WindowState Visible="True" X="10" Y="95" Width="85" Height="85"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="0"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Spot Lights OFF" ID="38" Icon="">
+      <WindowState Visible="True" X="10" Y="10" Width="85" Height="85"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="4"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+    </SoloFrame>
+    <Label Caption="Orange Lights" ID="41">
+     <WindowState Visible="True" X="545" Y="100" Width="130" Height="35"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>4294967295</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Label>
+    <SoloFrame Caption="" ID="60">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="True" X="555" Y="140" Width="105" Height="190"/>
+     <AllowChildren>False</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>False</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Mixing>False</Mixing>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Button Caption="Orange Lights 100%" ID="42" Icon="">
+      <WindowState Visible="True" X="10" Y="95" Width="85" Height="85"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="5"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Orange Lights OFF" ID="59" Icon="">
+      <WindowState Visible="True" X="10" Y="10" Width="85" Height="85"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="10"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+    </SoloFrame>
+    <Label Caption="Back Bar" ID="61">
+     <WindowState Visible="True" X="405" Y="345" Width="270" Height="35"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>4294967295</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Label>
+    <SoloFrame Caption="" ID="64">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="True" X="555" Y="385" Width="105" Height="190"/>
+     <AllowChildren>False</AllowChildren>
+     <AllowResize>False</AllowResize>
+     <ShowHeader>False</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Mixing>False</Mixing>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Button Caption="Back Bar Lights OFF" ID="62" Icon="">
+      <WindowState Visible="True" X="10" Y="10" Width="85" Height="85"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="20"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Back Bar Lights ON" ID="63" Icon="">
+      <WindowState Visible="True" X="10" Y="95" Width="85" Height="85"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="18"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+    </SoloFrame>
+    <SoloFrame Caption="" ID="85">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="True" X="415" Y="385" Width="105" Height="190"/>
+     <AllowChildren>False</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>False</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Mixing>False</Mixing>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Button Caption="Back Bar Spots 100%" ID="65" Icon="">
+      <WindowState Visible="True" X="10" Y="95" Width="85" Height="85"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="21"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Back Bar Spots OFF" ID="84" Icon="">
+      <WindowState Visible="True" X="10" Y="10" Width="85" Height="85"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="25"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+    </SoloFrame>
    </Frame>
+   <Button Caption="CLEANER LIGHTS" ID="23" Icon="">
+    <WindowState Visible="True" X="15" Y="10" Width="230" Height="75"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>4279206143</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="40"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Label Caption="Dashboard v1.0.0" ID="24">
+    <WindowState Visible="True" X="480" Y="35" Width="150" Height="30"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>4294967295</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Label>
   </Frame>
   <Properties>
    <Size Width="1024" Height="728"/>
