@@ -8,7 +8,10 @@
  </Creator>
  <Engine>
   <InputOutputMap>
-   <Universe Name="Universe 1" ID="0"/>
+   <Universe Name="Universe 1" ID="0">
+    <Input Plugin="ArtNet" Line="2"/>
+    <Output Plugin="DMX USB" Line="1"/>
+   </Universe>
   </InputOutputMap>
   <Fixture>
    <Manufacturer>LEDJ</Manufacturer>
