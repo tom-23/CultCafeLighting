@@ -734,6 +734,9 @@
    <Property Name="color2Index" Value="Red"/>
    <Property Name="color5Index" Value="OFF"/>
   </Function>
+  <Function ID="42" Type="Scene" Name="Soft Blackout">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
   <Function ID="81" Type="RGBMatrix" Name="Purple Rain">
    <Speed FadeIn="80" FadeOut="80" Duration="180"/>
    <Direction>Forward</Direction>
@@ -823,19 +826,6 @@
     <BackgroundImage>None</BackgroundImage>
     <Font>Default</Font>
    </Appearance>
-   <Button Caption="ALL OFF" ID="0" Icon="">
-    <WindowState Visible="True" X="885" Y="10" Width="120" Height="75"/>
-    <Appearance>
-     <FrameStyle>None</FrameStyle>
-     <ForegroundColor>4294967295</ForegroundColor>
-     <BackgroundColor>4281545523</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Function ID="4294967295"/>
-    <Action>Blackout</Action>
-    <Intensity Adjust="False">100</Intensity>
-   </Button>
    <Frame Caption="Cult Cafe" ID="4">
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
