@@ -1,3 +1,11 @@
+echo "Downloading restart script..."
+
+wget -O restartSystem.sh "https://raw.githubusercontent.com/tom-23/CultCafeLighting/main/restartSystem.sh"
+
+echo "Applying perms..."
+
+sudo chmod +x restartSystem.sh
+
 echo "Downloading fixtures..."
 
 cd /home/tom/.qlcplus/fixtures
